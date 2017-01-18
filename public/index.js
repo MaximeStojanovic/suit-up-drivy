@@ -29,4 +29,26 @@ var DRIVY = DRIVY || {};
 
     return;
   });
-}());
+
+
+} ());
+
+function Display(id)
+{
+    console.log(document.getElementById("car").style.display);
+   if (document.getElementById(id).style.visibility == "hidden")
+   {
+       
+        document.getElementById(id).style.visibility = "visible";
+
+       
+    }
+    else
+   {
+       
+        document.getElementById(id).style.visibility = "hidden";
+        
+    }
+
+    
+}
